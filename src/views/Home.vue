@@ -11,9 +11,9 @@
 
 <script>
 // @ is an alias to /src
-import Game from "@/components/Game.vue";
-import Timer from "@/components/Timer.vue";
-import Modal from "@/components/Modal.vue";
+import Game from "@/components/Game/Game.vue";
+import Timer from "@/components/Game/Timer.vue";
+import Modal from "@/components/Game/Modal.vue";
 
 export default {
   name: "Home",

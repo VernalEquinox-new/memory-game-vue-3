@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Table from "@/components/Table.vue";
+import Table from "@/components/Scores/Table.vue";
 export default {
   components: { Table },
   methods: {

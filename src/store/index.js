@@ -55,9 +55,6 @@ export default createStore({
         .then((res) => {
           commit("resetCards");
           commit("populateCards", res.data);
-        })
-        .catch((err) => {
-          console.log(err.data);
         });
     },
     getScores({ commit }) {
